@@ -1,37 +1,5 @@
-# Clean Snippet Builder
+# README
 
-A lightweight, interactive command-line tool that helps you quickly browse, select, and copy useful Python code snippets to your clipboard.
+When studying for the OSWE, I found it difficult to create a full python script because I am not sufficient with python. I used AI to assist me with a builder. For example, the program can output a flask app, basic parsing arguments, setting up static files in flask (like a reverse shell). 
 
-Perfect for developers who frequently need ready-to-use patterns for Flask apps, requests sessions, file handling, CLI argument parsing, and more — without searching docs or old projects every time.
-
-## ✨ Features
-
-- Clean, neutral, general-purpose Python snippets only (no exploits / security payloads)
-- Nested, numbered menu navigation
-- Copy selected snippet directly to clipboard (requires `pyperclip`)
-- Categories include:
-  - Command-line argument parsing (`argparse`)
-  - Flask basics, templates, static files
-  - File uploads & downloads (secure practices)
-  - HTTP clients with retries & progress bars
-  - Small static file servers
-  - Directory walking, pandas chunk reading, thread pools, etc.
-- Easy to extend — just add entries to the `SNIPPETS` dictionary
-- KeyboardInterrupt friendly (Ctrl+C exits gracefully)
-
-## 📦 Installation
-
-```bash
-# Option 1: Run directly from git (recommended for quick use)
-git clone https://github.com/YOUR-USERNAME/clean-snippet-builder.git
-cd clean-snippet-builder
-chmod +x snippet_builder.py
-./snippet_builder.py
-
-# Option 2: Install as editable package (if you want to develop / add snippets permanently)
-pip install -e .
-# then just run:
-snippet-builder
-
-```
-Note - this is assisted by AI
+This made it easier for me to just automate my scripting and focus on the vulnerablities. 
